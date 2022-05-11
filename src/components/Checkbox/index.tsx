@@ -1,7 +1,7 @@
-import { useEffect, useRef } from "react";
+import classnames from "classnames";
+
 import { CheckBoxProps } from "./checkbox.types";
 import styles from "./checkbox.module.scss";
-import classnames from "classnames";
 
 export const Checkbox = ({
   label,
